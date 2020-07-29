@@ -1,0 +1,279 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+    background-color: #FFF;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    min-height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 1 620px;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.container {
+    max-width:  1000px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    background-color: #e8ebf1;
+    flex: 1 0 auto;
+}
+
+.wrapper__upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contacts__block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contants__block1 {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 240px;
+}
+
+.contants__block2 {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 80px;
+    flex-wrap: wrap;
+
+}
+
+.contants__block3 {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 110px;
+    flex-wrap: wrap;
+
+}
+
+.contants__block4 {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 140px;
+}
+
+.contants__block5 {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 190px;
+}
+
+.contants__title {
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+
+.footer_text {
+    font-size: 14px;
+}
+
+.text_line {
+    line-height: 32px;
+}
+
+.footer__icon-link {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer_title__info{
+    font-weight: bold;
+}
+
+.footer__contants {
+    padding: 35px 0 0 0;
+}
+
+.title__link {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    background-color: #e8ebf1;
+    border-top: 1px solid #d9d9d9;
+    flex: 0 0 auto;
+}
+
+.copyrate {
+    display: flex;
+    justify-content: space-between;
+    padding: 43px 0;
+}
+
+.copyrate__label {
+    display: flex;
+    flex-direction: column;
+    line-height: 18px;
+}
+
+.label__copy {
+    font-size: 13px;
+    color: #363636;
+}
+
+.footer__link-img {
+    margin: 0 16px 14px 0;
+}
+
+#mg0, #mg1 {
+    margin: 0 0 14px;
+}
+
+
+
+
+
+/* content */
+
+.main__title {
+    background-image: url(../img/paint_brush.png);
+    background-repeat: no-repeat;
+    background-position: 0 36px;
+    padding: 40px 0 13px 35px;
+    width: 29px;
+    height: 26px;
+    font-size: 15px;
+}
+
+
+.filter {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0;
+    border-top: 1px solid #929292;
+    border-bottom: 1px solid #929292;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px 18px;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+.btn:active {
+    background-color: #81e4ed;
+    background-blend-mode: 0.35;
+}
+
+.btn:hover {
+    background-color: #81e4ed;
+    background-blend-mode: 0.35;
+}
+
+
+.works {
+    display: flex;
+    padding: 40px 0;
+}
+
+.rows {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cols {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+
+}
+
+.img {
+    padding: 20px 0;
+
+}
+
+
+
+
+
+.pagination {
+    text-align: center;
+    margin: 30px 0 42px;
+    height: 27px;
+}
+
+.pages {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 auto;
+}
+
+.page {
+    width: 27px;
+    height: 27px;
+    font-size: 14px;
+    margin: 0 -10px;
+    padding: 0 10px;
+}
+
+.pagerow {
+    border: none;
+    width: 27px;
+    height: 27px;
+    background-color: #FFF;
+}
+
+.arrow1{
+    background-image: url(../img/arrow_btn.png);
+    background-repeat: no-repeat;
+    outline: none;
+}
+
+.arrow2 {
+    background-image: url(../img/arrow_btn2.png);
+    background-repeat: no-repeat;
+    outline: none;
+}
